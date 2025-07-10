@@ -7,9 +7,9 @@ import Navbar from "@/components/ui/navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Logsfolio | Developer Portfolio",
+  title: "Arvindh | Developer Portfolio",
   description:
-    "A clean looking FREE portfolio template for devs. Built with NextJS & TailwindCSS",
+    "A clean looking on my skills. Built with NextJS & TailwindCSS",
 };
 
 export default function RootLayout({
