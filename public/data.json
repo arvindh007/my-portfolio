@@ -1,0 +1,127 @@
+{
+  "visual": {
+    "navbar": {
+      "links": [
+        {
+          "label": "Experience",
+          "path": "#experience"
+        },
+        {
+          "label": "Projects",
+          "path": "#projects"
+        },
+        {
+          "label": "Education",
+          "path": "#education"
+        },
+        {
+          "label": "Testimonials",
+          "path": "#testimonials"
+        }
+      ]
+    },
+    "home": {
+      "sections": {
+        "banner": true,
+        "experience": true,
+        "project": true,
+        "education": true,
+        "testimonial": true
+      }
+    }
+  },
+  "personalInfo": {
+    "name": "Arvindh",
+    "title": "Full Stack Developer",
+    "location": "Coimbatore, Tamil NAdu",
+    "bio": "I am a passionate full-stack developer with a strong background in building modern, scalable web applications. Lets collaborate and bring your ideas to life."
+  },
+  "contactInfo": {
+    "email": "arvindhsamy007@gmail.com",
+    "phone": "+91 8270320393",
+    "linkedin": "https://www.linkedin.com/in/arvindhsv13/",
+    "github": "https://github.com/arvindh007",
+    "twitter": "",
+    "website": ""
+  },
+  "skills": {
+    "languages": ["JavaScript", "Python", "Java"],
+    "frameworks": ["Svelte","React", "Node.js", "Express"],
+    "databases": ["MySQL", "Superbase","MongoDB", "PostgreSQL"],
+    "tools": ["Git"]
+  },
+  "projects": [
+    {
+      "id": "1",
+      "title": "Online Rendel App",
+      "description": "An online rental app for browsing listings, booking items, managing rentals, and handling payments, with admin control and real-time updates for a seamless user experience.",
+      "technologies": ["Javascript", "React", "TailwindCSS", "MongoDb"],
+      "live_url": "",
+      "code_repo_url": "https://github.com/arvindh007/Online_RentalApp",
+      "cover": "/assets/project_1.avif"
+    },
+    {
+      "id": "2",
+      "title": "Crop and Fertilizer Recommendation ",
+      "description": "This project aims to analyze and explore a dataset for crop recommendations using Python. The code performs basic exploratory data analysis (EDA) to understand the dataset structure, detect potential issues, and visualize insights.",
+      "technologies": ["Python", "Google Colab"],
+      "live_url": "",
+      "code_repo_url": "https://github.com/arvindh007/Crop-Fertilizer-Rec-Sys",
+      "cover": "/assets/project_3.jpeg"
+    },
+    {
+      "id": "3",
+      "title": "Ride Ranger",
+      "description": "A ride-sharing app enabling users to book rides, track drivers in real-time, and manage trip history. Includes driver onboarding, fare calculation, and secure payment integration.",
+      "technologies": ["Javascript", "Kotlin", "Ruby"],
+      "live_url": "",
+      "code_repo_url": "https://github.com/arvindh007/RideRanger",
+      "cover": "/assets/project_2.avif"
+    }
+  ],
+  "workExperience": [
+    {
+      "id": "1",
+      "company": "Right Angle Solutions",
+      "companyWebsite": "",
+      "role": "Full Stack Developer",
+      "startDate": "Mar 2025",
+      "endDate": "Present",
+      "technologies": ["Svelte", "Node.js", "Express", "Superbase"],
+      "keyResponsibilities": [
+       
+        "Developed front-end applications using Svelte and Node.js.",
+        "Integrated third-party services and APIs to enhance application functionality.",
+        "Helped Senior developers and conducted code reviews."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "Anna University, Chennai",
+      "degree": "Bachelor of Science in Computer Science",
+      "description": "Completed a comprehensive curriculum in computer science, including courses in data structures, algorithms, software engineering, and artificial intelligence. Worked on several projects, including a web application for managing student organizations and a mobile app for tracking fitness activities.",
+      "startDate": "Oct 2021",
+      "endDate": "May 2025"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Jeeva",
+      "avatar": "/assets/profile_1.jpg",
+      "title": "Test Engineer",
+      "company": "Bosch in India.",
+      "feedback": "Arvindh is a fantastic developer who consistently delivers high-quality work. His ability to solve complex problems is impressive."
+    },
+    {
+      "id": "2",
+      "name": "Krisna",
+      "avatar": "/assets/profile_2.avif",
+      "title": "Software Developer",
+      "company": "Dmex Solutions",
+      "feedback": "Arvindh is a highly skilled developer who brings a lot of value to our projects. His expertise in full stack development is top-notch."
+    }
+  ]
+}
